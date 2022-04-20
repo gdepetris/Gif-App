@@ -14,6 +14,8 @@ export class sidebarComponent {
         return this.GifsService.historial;
     }
 
-    
+    buscar( algo: string ){
+        this.GifsService.agregaHistorial(algo);
+    }
 
 }
